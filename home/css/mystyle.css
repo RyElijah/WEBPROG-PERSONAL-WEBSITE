@@ -1,25 +1,27 @@
 body {
-    background-color: #F5F5DC;
-  }
-  h1 {
-    text-align: center;
-  }
-  p {
-    font-family: verdana;
-    font-size: 20px;
+  background-color: #F5F5DC;
+}
 
-  }
-  .container {
-    width: 989px;
-		margin: auto; 
+h1 {
+  text-align: center;
+}
 
-		background-color: #D3D3D3;}
+p {
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+}
 
-    table, td, th {
-      border: 1px solid black;
-    }
-    
-    table {
-      border-collapse: collapse;
-      width: 50%;
-    }
+.container {
+  width: 989px;
+  margin: auto;
+  background-color: #D3D3D3;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
