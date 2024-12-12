@@ -25,3 +25,11 @@
     background-color: #f5f5f5;
     padding: 20px;
   }
+  table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
