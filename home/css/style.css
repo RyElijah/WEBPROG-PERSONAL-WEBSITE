@@ -64,15 +64,14 @@ header .navigation li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  top: 80px;
+  top: 400;
 }
 
 .content .textBox {
   position: relative;
   max-width: 600px;
   margin-right: 20px;
-  left: 100px;
-  top: 100px;
+  left: 160;
   
 }
 
@@ -105,7 +104,7 @@ header .navigation li a {
 
 .sci {
   position: absolute;
-  bottom: 80px;
+  bottom: 50px;
   left: 98px;
   display: flex;
   justify-content: center;
@@ -142,8 +141,8 @@ header .navigation li a {
 .swiper {
   width: 500px;
   height: 500px;
-  top: 100px;
-  right: 100px;
+  top: 500;
+  right: 100;
 }
 
 .swiper-slide {
