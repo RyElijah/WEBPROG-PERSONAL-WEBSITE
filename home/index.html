@@ -1,73 +1,109 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-  <title>My website</title> 
-  
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/style.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">  
   </head>
-  
   <body>
-      <section>
-          <div class="circle"></div>
-          <header>
-              <a href="#"><img src="logo.jpg" alt=""></a>
-              <ul class="navigation">
-                  <li><a href="#"></a></li>
-                  <li><a href="#">Education</a></li>
-                  <li><a href="#">Goals in Life</a></li>
-                  <li><a href="#">Hobbies & Interests</a></li>
-              </ul>
-          </header>
-  
-          <div class="content">
-  <div class="textBox">
-      <h2>Welcome to my Homepage!</h2>
-      <p>I am a student in Asia Pacific College taking Bachelor of Science in Information Technology specialized in Mobile and Internet Applications ...
-  
-          <br>
-      <a href="#">Learn more about me! </a>
-  </div>
-  
-  
-  
-  
-  <div class="imagebox">
-  
-      <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-  
-            
-              <div class="swiper-slide"><img src="images/ryanpic1.jpg" /></div>
-              <div class="swiper-slide"> <img src="images/ryanpic2.jpg" /></div>
-              <div class="swiper-slide"> <img src="images/ryanpic3.jpg" /></div>
-              <div class="swiper-slide"><img src="images/ryanpic5.jpg" /></div>
-          
-  
-  
-  </div>  
-  </div>
-  </div>
-  </div>
-          
-  
-  
-  
-  
-  
-  
-  <ul class="sci">
-    <li><a href="https://www.facebook.com/ryanelijah.luar/"><img src="images/efbi.png" alt="Efbi"></a></li>  
-    <li><a href="https://www.linkedin.com/in/ryan-elijah-luar-a99171250/"><img src="images/linkedin.png" alt="Linkedin"></a></li> 
-    <li><a href="https://github.com/RyElijah"><img src="images/github1.png" alt="Github"></a></li> 
-  </ul>
-  
-   </section>
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <script src="js/swiper.js"></script>
-  
-  
-  
-  
-  
+    <section>
+      <div class="circle"></div>
+      <header>
+        <ul class="navigation">
+          <li><a href="#" id="educationLink">Education</a></li>
+          <li><a href="#" id="goalsLink">Goals in Life</a></li>
+          <li><a href="#" id="hobbiesLink">Hobbies & Interests</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Welcome to my Homepage!</h2>
+          <p>
+            I am a student in Asia Pacific College taking Bachelor of Science in Information Technology specialized in Mobile and Internet Applications ...
+            <br>
+            <a id="learnMoreLink">Learn more about me!</a>
+          </p>
+        </div>
+        <div class="imagebox">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/ryanpic1.jpg" alt="Image 1"></div>
+              <div class="swiper-slide"><img src="images/ryanpic2.jpg" alt="Image 2"></div>
+              <div class="swiper-slide"><img src="images/ryanpic3.jpg" alt="Image 3"></div>
+              <div class="swiper-slide"><img src="images/ryanpic5.jpg" alt="Image 4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="sci">
+        <li><a href="https://www.facebook.com/ryanelijah.luar/"><img src="images/efbi.png" alt="Facebook"></a></li>  
+        <li><a href="https://www.linkedin.com/in/ryan-elijah-luar-a99171250/"><img src="images/linkedin.png" alt="LinkedIn"></a></li> 
+        <li><a href="https://github.com/RyElijah"><img src="images/github1.png" alt="GitHub"></a></li> 
+      </ul>
+    </section>
+    
+
+    <div class="modal" id="aboutModal">
+      <div class="modal-content">
+        <h2>About Me</h2>
+        <p>My name is Ryan Elijah Luar and this is my experience throughout my course. <br> <br> My Experience from my course has a lot of ups and downs. I learned how to code and what are their functions and what are their purposes and also I crammed a lot of subjects during my freshman due to being overwhelmed. But overall, taking IT course is a great choice.</p>
+        <button class="close-btn">Close</button>
+      </div>
+    </div>
+
+    <div class="modal" id="educationModal">
+      <div class="modal-content">
+        <h2>Education</h2>
+        <p>I am currently studying at Asia Pacific College, pursuing a Bachelor of Science in Information Technology, specializing in Mobile and Internet Applications.</p>
+        <button class="close-btn">Close</button>
+      </div>
+    </div>
+
+    <div class="modal" id="goalsModal">
+      <div class="modal-content">
+        <h2>Goals in Life</h2>
+        <ol>
+
+            <li>To get rich</li>
+            <li>To have my dream house and bike</li>
+            <li>To graduate college</li>
+          </ol>
+
+        <button class="close-btn">Close</button>
+      </div>
+    </div>
+
+    <div class="modal" id="hobbiesModal">
+      <div class="modal-content">
+
+        <h2>Hobbies & Interests</h2>
+        <table>
+            <tr>
+              <th>Hobbies</th>
+              <th>Interests</th>
+            </tr>
+            <tr>
+              <td>Playing Basketball</td>
+              <td>Dancing</td>
+            </tr>
+            <tr>
+              <td>Riding Motorcycle</td>
+              <td>Exploring</td>
+            </tr>
+            <tr>
+              <td>Going to the gym</td>
+            </tr>
+          </table>
+    
+        <button class="close-btn">Close</button>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/modal.js"></script>
   </body>
-   </html>
+</html>
